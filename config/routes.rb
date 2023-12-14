@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # Add your new route here
+  get 'random_greeting', to: 'greetings#random'
 end
