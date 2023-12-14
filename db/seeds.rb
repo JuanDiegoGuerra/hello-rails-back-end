@@ -1,3 +1,5 @@
-['Hi, this is Gaben from Valve!', 'Welcome', 'Axe says good day sir!', 'Greetings', 'Hello micronout'].each do |greeting|
-    Message.create(greeting: greeting)
-  end
+Message.create(content: "Hi, this is Gaben from Valve!")
+Message.create(content: "Welcome.")
+Message.create(content: "Greetings, traveler!")
+Message.create(content: "Axe says good day sir")
+Message.create(content: "Hello micronout")
